@@ -297,6 +297,7 @@ INSERT INTO dbo.ImportantTableTypes
     SecurityType
 )
 VALUES
+('All'),-- Used for Reporting Dropdown
 ('Transaction'),
 ('NA'),
 ('Setup'),

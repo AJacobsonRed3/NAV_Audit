@@ -1,0 +1,14 @@
+All my code is designed to work with a reporting database separate from any NAV database you are using.
+To understand how that works, please check out the NAVSQL repository in my Git Hub.
+
+Once that is done, you should run these two scripts:
+100_Create Required Tables.sql
+105_CreateUserTablePermissionView.sql
+
+You do not have to run 105B. this script just shows you how you might run the query directly over a NAV Database.
+
+Once the scripts are run, you can then use the SSRS file found below.
+The report does not use any shared datasets.
+It does use a shared dataset which I have not provided as you will need to create your own in any case.
+
+
